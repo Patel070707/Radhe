@@ -4,7 +4,7 @@ import random
 import requests
 from RishuMusic import app 
 
-SUPPORT_CHAT = "CODEX_KA_BAAP_4ST"
+SUPPORT_CHAT = "FRIENDSHUBCHATZONE"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
